@@ -18,7 +18,6 @@ class Car {
 
 	draw() {
 		fill(200, 0, 0);
-		noStroke();
 		ellipse(this.x, this.y, 4 * this.carRadius, 2 * this.carRadius);
 	}
 
