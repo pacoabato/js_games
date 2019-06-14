@@ -1,0 +1,41 @@
+body {
+	
+}
+
+.canvas{
+	position: absolute;
+	left: 5px;
+	top: 5px;
+}
+
+#canvas0{
+	display: block;
+}
+
+#canvas1{
+	display: none;
+}
+
+div.row{
+	display: block;
+	clear: both;
+}
+
+div.cell{
+	float: left;
+	width: 10px;
+	height: 10px;
+	display: block;
+	margin: 1px;
+	background: none no-repeat white;
+}
+
+div.cellAlive{
+	float:left;
+	width: 10px;
+	height	: 10px;
+	display: block;
+	margin: 1px;
+	background: url(cellAlive.png) no-repeat;
+/*	background: none no-repeat black;*/
+}
